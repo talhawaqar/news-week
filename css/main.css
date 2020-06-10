@@ -1,0 +1,105 @@
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+              Fonts
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
+
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+              RESET
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 1300px;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+              UTILITY CLASSES
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+/* .font-roboto-condenced {
+  font-family: "Roboto Condensed", sans-serif;
+} */
+
+.bg-redorange {
+  background-color: #f72210;
+}
+
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+              NAVBAR
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+.weather {
+  margin-top: 1.2em;
+  margin-left: 2em;
+}
+
+.weather-img {
+  width: 24px;
+  height: 24px;
+}
+
+.weather-country {
+  font-size: 15px;
+}
+
+.today-date {
+  font-size: 16px;
+  margin-left: 2em;
+  margin-top: 0.5em;
+}
+
+.logo-svg {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+.btn-login {
+  font-size: 18px;
+  margin-bottom: 1.1em;
+  margin-right: 0.8em;
+}
+
+.btn-subscribe {
+  background-color: #ffe400;
+  border-radius: 24px;
+  font-size: 18px;
+  height: 35px;
+  margin-right: 0.8em;
+  margin-bottom: 1em;
+}
+
+.white-navbar a {
+  font-size: 19px;
+}
+
+.white-navbar a:hover {
+  color: #f72210 !important;
+}
+
+.white-navbar input[type="search"] {
+  width: 5em;
+}
+
+::placeholder {
+  font-size: 19px;
+  color: #b6b6b6;
+}
+
+.white-navbar::before {
+  position: absolute;
+  top: 0;
+  right: 0;
+  content: "";
+  display: block;
+  width: 5em;
+  background-color: #f72210;
+  border-left: 12px solid white;
+  border-top: 13px solid #f72210;
+}
