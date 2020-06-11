@@ -43,12 +43,28 @@ body {
   font-size: 16px;
 }
 
+.font-17 {
+  font-size: 17px;
+}
+
+.font-19 {
+  font-size: 19px;
+}
+
+.font-22 {
+  font-size: 22px;
+}
+
 .text-redorange {
   color: #f72210;
 }
 
 .hover-redorange:hover {
   color: #f72210;
+}
+
+.hover-light-gray:hover {
+  color: #b6b6b6;
 }
 
 .img-bottom {
@@ -58,6 +74,10 @@ body {
 
 .text-black {
   color: black;
+}
+
+.text-gray {
+  color: #444;
 }
 
 /* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -139,7 +159,6 @@ body {
 
 .logo-side-heading {
   font-size: 19px;
-  color: #333;
   position: relative;
   top: 0.2em;
   left: 0.5em;
@@ -151,6 +170,7 @@ body {
 
 .article-link {
   font-size: 20px;
+  line-height: 24px;
 }
 
 .article-link:hover {
@@ -164,5 +184,13 @@ body {
 .summery {
   font-size: 15px;
   font-family: Arial, Helvetica, sans-serif;
-  color:rgb(51, 51, 51);
+  color: rgb(51, 51, 51);
+}
+
+.us-image img {
+  height: 16em;
+}
+
+.us-sm-2-3 img {
+  height: 6em;
 }
