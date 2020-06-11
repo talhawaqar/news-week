@@ -39,6 +39,10 @@ body {
   max-width: 98% !important;
 }
 
+.bg-lightgray {
+  background-color: #f4f5f6;
+}
+
 .font-16 {
   font-size: 16px;
 }
@@ -53,6 +57,10 @@ body {
 
 .font-22 {
   font-size: 22px;
+}
+
+.font-24 {
+  font-size: 24px;
 }
 
 .text-redorange {
@@ -193,4 +201,18 @@ body {
 
 .us-sm-2-3 img {
   height: 6em;
+}
+
+.prev-img {
+  top: 1em;
+}
+
+.prev-img img {
+  width: 10em;
+  height: 12em;
+}
+
+.current-image {
+  left: 5.5em;
+  top: 0.9em;
 }
