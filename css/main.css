@@ -152,6 +152,7 @@ body {
   height: 35px;
   margin-right: 0.8em;
   margin-bottom: 1em;
+  font-size: 18px;
 }
 
 .white-navbar a {
@@ -273,30 +274,47 @@ body {
 
 @media only screen and (max-width: 991px) {
   .logo-svg {
-    width: 20em;
-    height: 5em;
-    margin: 0 0 0 1em;
+    width: 9em;
+    height: 3em;
+    margin: 0.2em 0 0 1em;
   }
 
   .btn-login {
-    margin-bottom: 1em;
-    margin-right: 0.8em;
+    margin: 0 0.8em 0 0;
   }
 
   .btn-subscribe {
-    height: 35px;
-    margin-right: 0.8em;
-    margin-bottom: 1em;
+    height: 30px;
+    margin: 0 0.8em 0 0;
+    padding: 0 1em 0.3em 1em;
   }
+
   .hamburger {
-    top: -0.5em;
+    top: 0;
     right: 0.3em;
+  }
+
+  .white-navbar::before {
+    display: none;
   }
 }
 
 @media only screen and (max-width: 767px) {
   .white-navbar::before {
     display: none;
+  }
+
+  .logo-svg {
+    width: 8em;
+    height: 3em;
+    margin: 0.2em 0 0 1em;
+  }
+
+  .btn-subscribe {
+    height: 25px;
+    margin: 0 0.8em 0 0;
+    padding: 0.2em 1em 0em 1em;
+    font-size: 13px;
   }
 }
 
