@@ -23,10 +23,6 @@ body {
               UTILITY CLASSES
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 
-/* .font-roboto-condenced {
-  font-family: "Roboto Condensed", sans-serif;
-} */
-
 .bg-redorange {
   background-color: #f72210;
 }
@@ -41,6 +37,14 @@ body {
 
 .bg-lightgray {
   background-color: #f4f5f6;
+}
+
+.bg-faroze {
+  background-color: #c2d4d7;
+}
+
+.lh-19 {
+  line-height: 19px;
 }
 
 .font-13 {
@@ -71,6 +75,10 @@ body {
   font-size: 19px;
 }
 
+.font-20 {
+  font-size: 20px;
+}
+
 .font-22 {
   font-size: 22px;
 }
@@ -92,7 +100,7 @@ body {
 }
 
 .hover-light-gray:hover {
-  color: #b6b6b6;
+  color: rgba(3, 3, 3, 0.4);
 }
 
 .img-bottom {
@@ -106,6 +114,10 @@ body {
 
 .text-gray {
   color: #444;
+}
+
+.text-lightgray {
+  color: rgba(3, 3, 3, 0.4);
 }
 
 .redorange-btn {
@@ -183,6 +195,52 @@ body {
   border-top: 13px solid #f72210;
 }
 
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+              Main SECTIOIN
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+.feature-story {
+  height: 15em;
+}
+
+.story-img {
+  height: 6em;
+}
+
+.turn-img {
+  height: 10em;
+}
+
+.debate {
+  border-top: solid 3px #f72210;
+  border-bottom: solid 3px blueviolet;
+}
+
+.debate-lower {
+  margin-top: 1px;
+}
+
+.vs::before {
+  position: absolute;
+  text-align: center;
+  content: "VS";
+  color: #f4f5f6;
+  background-color: black;
+  display: block;
+  width: 2em;
+  height: 2em;
+  top: 5.5em;
+  left: 45%;
+  z-index: 1;
+  padding-top: 0.3em;
+  border-radius: 50%;
+}
+
+.user-avatar {
+  height: 4em;
+  width: 4em;
+}
+
 .n-logo {
   width: 29px;
   height: 29px;
@@ -200,7 +258,6 @@ body {
 }
 
 .article-link {
-  font-size: 20px;
   line-height: 24px;
 }
 
@@ -213,7 +270,6 @@ body {
 }
 
 .summery {
-  font-size: 15px;
   font-family: Arial, Helvetica, sans-serif;
   color: rgb(51, 51, 51);
 }
