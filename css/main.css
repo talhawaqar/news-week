@@ -120,6 +120,10 @@ body {
   color: rgba(3, 3, 3, 0.4);
 }
 
+.text-bluevoilet {
+  color: blueviolet;
+}
+
 .redorange-btn {
   padding: 0.3em 0.5em;
 }
@@ -243,6 +247,11 @@ body {
 
 .op {
   margin-left: 0.5em;
+}
+
+.gray-form {
+  width: 80%;
+  margin: auto;
 }
 
 .n-logo {
