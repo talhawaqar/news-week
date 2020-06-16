@@ -229,7 +229,7 @@ body {
   display: block;
   width: 2em;
   height: 2em;
-  top: 5.5em;
+  top: 40%;
   left: 45%;
   z-index: 1;
   padding-top: 0.3em;
@@ -379,10 +379,22 @@ body {
 }
 
 @media (max-width: 575.98px) {
-  .d-xs-none {
-    display: none;
-  }
   .logo-svg {
     width: 7em;
+  }
+
+  .btn-login {
+    margin: 0 0.5em 0 0;
+  }
+
+  .hamburger {
+    padding: 0;
+    margin-right: 0.5;
+  }
+
+  .btn-subscribe {
+    height: 22px;
+    margin: 0 1em 0 0;
+    padding: 0.1em 0.5em 0em 0.5em;
   }
 }
