@@ -241,6 +241,10 @@ body {
   width: 4em;
 }
 
+.op {
+  margin-left: 0.5em;
+}
+
 .n-logo {
   width: 29px;
   height: 29px;
