@@ -266,8 +266,20 @@ body {
   left: 0.5em;
 }
 
+.magazine-image {
+  margin-top: 2em;
+}
+
 .magazine-image img {
   height: 18em;
+}
+
+.magazine-last-image {
+  margin-top: 2em;
+}
+
+.magazine-last-image img {
+  height: 20em;
 }
 
 .article-link {
@@ -276,10 +288,6 @@ body {
 
 .article-link:hover {
   color: black;
-}
-
-.magazine-last-image img {
-  height: 20em;
 }
 
 .summery {
@@ -366,6 +374,34 @@ body {
   .white-navbar::before {
     display: none;
   }
+
+  .magazine-image-first {
+    margin-top: 2em;
+  }
+
+  .magazine-image {
+    margin-top: 0em;
+  }
+
+  .magazine-image img {
+    height: 10em;
+  }
+
+  .magazine-last-image {
+    margin-top: 2em;
+  }
+
+  .magazine-last-image img {
+    height: 12em;
+  }
+
+  .m-row-2 {
+    margin-top: 2em;
+  }
+
+  .us-image img {
+    height: 10em;
+  }
 }
 
 @media only screen and (max-width: 767px) {
@@ -384,6 +420,25 @@ body {
     margin: 0 0.8em 0 0;
     padding: 0.2em 1em 0em 1em;
     font-size: 13px;
+  }
+  .copyright {
+    left: 0;
+  }
+
+  .magazine-image img {
+    height: 25em;
+  }
+
+  .magazine-last-image img {
+    height: 25em;
+  }
+
+  .us-image img {
+    height: 25em;
+  }
+
+  .m-us-sm {
+    margin-top: 1em;
   }
 }
 
@@ -405,5 +460,21 @@ body {
     height: 22px;
     margin: 0 1em 0 0;
     padding: 0.1em 0.5em 0em 0.5em;
+  }
+
+  .magazine-image img {
+    height: 15em;
+  }
+
+  .magazine-last-image img {
+    height: 15em;
+  }
+
+  .us-image img {
+    height: 15em;
+  }
+
+  .copyright {
+    left: 0;
   }
 }
