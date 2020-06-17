@@ -247,6 +247,7 @@ body {
 
 .op {
   margin-left: 0.5em;
+  margin-right: 1em;
 }
 
 .gray-form {
@@ -319,12 +320,16 @@ body {
 }
 
 .gray-area-text h2 {
-  margin-top: 3em;
+  top: 3em;
 }
 
 .gray-area-text p {
-  margin-top: 0.4em;
+  top: 10em;
   margin-bottom: 1em;
+}
+
+.gray-area-text button {
+  top: 9em;
 }
 
 .red-logo svg {
@@ -375,6 +380,14 @@ body {
     display: none;
   }
 
+  .turn-img {
+    height: 8em;
+  }
+
+  .debate-detail {
+    margin-left: 1em;
+  }
+
   .magazine-image-first {
     margin-top: 2em;
   }
@@ -393,6 +406,19 @@ body {
 
   .magazine-last-image img {
     height: 12em;
+  }
+
+  .gray-area-text h2 {
+    top: 2em;
+  }
+
+  .gray-area-text p {
+    top: 10em;
+    margin-bottom: 1em;
+  }
+
+  .gray-area-text button {
+    top: 9em;
   }
 
   .m-row-2 {
@@ -421,6 +447,10 @@ body {
     padding: 0.2em 1em 0em 1em;
     font-size: 13px;
   }
+
+  .turn-img {
+    height: 25em;
+  }
   .copyright {
     left: 0;
   }
@@ -439,6 +469,35 @@ body {
 
   .m-us-sm {
     margin-top: 1em;
+  }
+
+  .prev-img {
+    margin-left: 25%;
+  }
+
+  .sm-margin {
+    margin-top: 2em;
+  }
+  .prev-img img {
+    width: 12em;
+    height: 15em;
+  }
+
+  .gray-area-text h2 {
+    top: -6em;
+    text-align: center;
+    left: 10%;
+  }
+
+  .gray-area-text p {
+    top: -5em;
+    left: 25%;
+    text-align: center;
+  }
+
+  .gray-area-text button {
+    top: -4em;
+    left: 37%;
   }
 }
 
@@ -476,5 +535,18 @@ body {
 
   .copyright {
     left: 0;
+  }
+
+  .prev-img {
+    margin-left: 10%;
+  }
+
+  .gray-area-text p {
+    left: 10%;
+  }
+
+  .gray-area-text button {
+    top: -4em;
+    left: 33%;
   }
 }
