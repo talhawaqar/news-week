@@ -11,6 +11,7 @@ The page tries to replicate as much as possible the actual home page of newsweek
 - Html,
 - CSS,
 - Bootstrap
+- Font Awsome for icons
 
 ## Live Demo
 
