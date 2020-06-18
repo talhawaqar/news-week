@@ -15,7 +15,7 @@ The page tries to replicate as much as possible the actual home page of newsweek
 
 ## Live Demo
 
-[Live Demo Link](https://raw.githack.com/talhawaqar/news-week/homepage/index.html)
+[Live Demo Link](https://rawcdn.githack.com/talhawaqar/news-week/83e7854c851a928a16cf1141e449564adc23b4cc/index.html)
 
 👤 **Author**
 
